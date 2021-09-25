@@ -1,20 +1,20 @@
 /*
- * Copyright © 1999 Henry Davies
- * Copyright © 2001 Stefan Gmeiner
- * Copyright © 2002 S. Lehner
- * Copyright © 2002 Peter Osterlund
- * Copyright © 2002 Linuxcare Inc. David Kennedy
- * Copyright © 2003 Hartwig Felger
- * Copyright © 2003 Jörg Bösner
- * Copyright © 2003 Fred Hucht
- * Copyright © 2004 Alexei Gilchrist
- * Copyright © 2004 Matthias Ihmig
- * Copyright © 2006 Stefan Bethge
- * Copyright © 2006 Christian Thaeter
- * Copyright © 2007 Joseph P. Skudlarek
- * Copyright © 2008 Fedor P. Goncharov
- * Copyright © 2008-2009 Red Hat, Inc.
- * Copyright © 2011 The Chromium OS Authors
+ * Copyright ï¿½ 1999 Henry Davies
+ * Copyright ï¿½ 2001 Stefan Gmeiner
+ * Copyright ï¿½ 2002 S. Lehner
+ * Copyright ï¿½ 2002 Peter Osterlund
+ * Copyright ï¿½ 2002 Linuxcare Inc. David Kennedy
+ * Copyright ï¿½ 2003 Hartwig Felger
+ * Copyright ï¿½ 2003 Jï¿½rg Bï¿½sner
+ * Copyright ï¿½ 2003 Fred Hucht
+ * Copyright ï¿½ 2004 Alexei Gilchrist
+ * Copyright ï¿½ 2004 Matthias Ihmig
+ * Copyright ï¿½ 2006 Stefan Bethge
+ * Copyright ï¿½ 2006 Christian Thaeter
+ * Copyright ï¿½ 2007 Joseph P. Skudlarek
+ * Copyright ï¿½ 2008 Fedor P. Goncharov
+ * Copyright ï¿½ 2008-2009 Red Hat, Inc.
+ * Copyright ï¿½ 2011 The Chromium OS Authors
  *
  * Permission to use, copy, modify, distribute, and sell this software
  * and its documentation for any purpose is hereby granted without
@@ -41,7 +41,7 @@
  *      Stefan Bethge <stefan.bethge@web.de>
  *      Matthias Ihmig <m.ihmig@gmx.net>
  *      Alexei Gilchrist <alexei@physics.uq.edu.au>
- *      Jörg Bösner <ich@joerg-boesner.de>
+ *      Jï¿½rg Bï¿½sner <ich@joerg-boesner.de>
  *      Hartwig Felger <hgfelger@hgfelger.de>
  *      Peter Osterlund <petero2@telia.com>
  *      S. Lehner <sam_x@bluemail.ch>
@@ -776,9 +776,9 @@ set_default_parameters(InputInfoPtr pInfo)
     pars->click_action[F3_CLICK1] =
         xf86SetIntOption(opts, "ClickFinger3", clickFinger3);
     pars->circular_scrolling =
-        xf86SetBoolOption(opts, "CircularScrolling", FALSE);
+        xf86SetBoolOption(opts, "CircularScrolling", TRUE);
     pars->circular_trigger = xf86SetIntOption(opts, "CircScrollTrigger", 0);
-    pars->circular_pad = xf86SetBoolOption(opts, "CircularPad", FALSE);
+    pars->circular_pad = xf86SetBoolOption(opts, "CircularPad", TRUE);
     pars->palm_detect = xf86SetBoolOption(opts, "PalmDetect", FALSE);
     pars->palm_min_width = xf86SetIntOption(opts, "PalmMinWidth", palmMinWidth);
     pars->palm_min_z = xf86SetIntOption(opts, "PalmMinZ", palmMinZ);
